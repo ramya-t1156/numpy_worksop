@@ -5,7 +5,7 @@ def isPalindrome(n):
   while(n!=0):
     rev = rev*10+n%10
     n//=10
-  return n==rev
+  return ans==rev
 n = int(input())
 if(isPalindrome(n)):
   print(f"{n} is Palindrome")

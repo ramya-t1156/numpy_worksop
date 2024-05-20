@@ -9,6 +9,10 @@ e=[3]
 # use these lists to create another list which will look like the list output in line 2
 ans = []
 # use append method to do this.
-ans.append(a,b,c,d,e)
+ans.append(a)
+ans.append(b)
+ans.append(c)
+ans.append(d)
+ans.append(e)
 print(ans)
 
